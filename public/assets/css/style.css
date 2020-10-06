@@ -1,0 +1,129 @@
+/*Nawigacja*/
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+#navbar-logo {
+    height: 50px;
+}
+
+.text-red {
+    color: #FF6B6B;
+}
+
+.nav-item {
+    transition: padding-left 0.5s;
+    transition: padding-right 0.5s;
+}
+
+.nav-item:hover {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #f0f0f0;
+    border-radius: 25px;
+}
+
+/*Sekcje*/
+section {
+    padding-top: 125px;
+    padding-bottom: 100px;
+}
+
+section:nth-child(even) {
+    background-color: gainsboro;
+}
+
+section:nth-child(odd) {
+    background-color: white;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 50px;
+}
+
+section hr {
+    padding-bottom: 35px;
+}
+
+/*O nas*/
+.onas-img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    height: 200px;
+}
+
+/*Oferta*/
+.offert {
+    margin: auto;
+}
+
+/*Kontakt*/
+.button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+/*Stopka*/
+footer {
+    background-color: black;
+    text-align: right;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: ghostwhite;
+}
+
+@media (max-width: 768px) {
+    #navbar-logo {
+        height: 30px;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+@media (max-width: 991px) {
+    #write-mail {
+        padding-top: 40px;
+    }
+
+    section {
+        padding-top: 105px;
+    }
+}
+
+/*Kolory kart*/
+.color1 {
+    background-color: #1d1d1d;
+}
+
+.color2 {
+    background-color: #959595;
+}
+
+.color3 {
+    background-color: #646464;
+}
+
+.color4 {
+    background-color: #bebebe;
+}
+
+/* Animacje*/
+.card-text {
+
+}
